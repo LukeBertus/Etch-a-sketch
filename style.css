@@ -2,17 +2,21 @@
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
+    cursor: default !important;
 }
 
 html,
 body {
     height: 100%;
+    cursor: default !important;
 }
 
 body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+
+    
 }
 
 #headerContainer{
@@ -25,7 +29,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 
 #canvas {
@@ -35,15 +38,22 @@ body {
     display: flex;
     flex-direction: column;
     
+    
+    
 }
 
 .pixelRow {
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     display: flex;
     flex: 1;
 }
 
 .pixel {
-    border: 1px solid grey;
+    /*border: 1px solid grey;*/
     flex: 1;
+    
+}
+
+.coloured {
+    background-color: black;
 }
