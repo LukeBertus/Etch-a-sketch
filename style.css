@@ -39,5 +39,11 @@ body {
 
 .pixelRow {
     border: 1px solid black;
+    display: flex;
+    flex: 1;
+}
+
+.pixel {
+    border: 1px solid grey;
     flex: 1;
 }
